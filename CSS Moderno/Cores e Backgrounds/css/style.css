@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+
+  color: rgba(15, 180, 45, 0.8);
+}
+
+p {
+  line-height: 145%;
+  color: #1faa36cc;
+}
