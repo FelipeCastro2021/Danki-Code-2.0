@@ -12,8 +12,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#title {
+/* Especificidade maior que o seletor abaixo */
+h1#title {
   font-size: 1.8rem;
+}
+
+#title {
+  font-size: 0.8rem;
 }
 
 #subtitle {
