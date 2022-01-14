@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+  font-size: 1.8rem;
+}
+
+#subtitle {
+  margin: 0 0 2rem;
+  font-weight: normal;
+}
+
+.anime {
+  margin-top: 1rem;
+}
+
+.anime-title {
+  margin-bottom: 0.3rem;
+}
+
+.anime-description {
+  line-height: 140%;
+}
+
+footer {
+  margin-top: 3rem;
+
+  text-align: center;
+}
