@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+[field='obrigado'] {
+  margin: 0 0 15px;
+}
+
+[name='felipe'] {
+  line-height: 140%;
+  color: darkred;
+  font-size: 1.2rem;
+
+  margin-top: 1rem;
+}
