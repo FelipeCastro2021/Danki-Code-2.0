@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+/* Não vai funcionar */
+/* .block-1 > h1 {
+  color: green;
+} */
+
+.block-1 > .block-2 > .title {
+  color: springgreen;
+}
+
+.block-2 h1.title {
+  color: coral;
+}
+
+.block-2 .title {
+  color: brown;
+}
+
+.title {
+  color: blue;
+}
+
+h1 {
+  color: red;
+}
