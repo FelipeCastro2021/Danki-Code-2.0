@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.block-1 {
+  flex: 0.4;
+
+  background-color: tomato;
+}
+
+.block-2 {
+  flex: 0.2;
+
+  background-color: deepskyblue;
+}
+
+.block-3 {
+  flex: 0.3;
+
+  background-color: gold;
+}
