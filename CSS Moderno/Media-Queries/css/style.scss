@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+.box {
+  background-color: tomato;
+
+  width: 50%;
+  height: 100px;
+
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    background-color: aquamarine;
+  }
+}
