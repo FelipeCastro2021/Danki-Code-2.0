@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+
+  font-family: 'Karla', sans-serif;
+}
+
+img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.container {
+  width: 98vw;
+  text-align: center;
+  margin: 10px auto;
+}
+
+input[type='text'],
+input[type='email'] {
+  /* Altura da caixa */
+  height: 35px;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  padding-left: 10px;
+
+  display: block;
+  border-radius: 5px;
+
+  border: 1px solid lightgray;
+
+  font-size: 1rem;
+}
+
+textarea {
+  /* Altura das caixas */
+  height: 80px;
+  padding-top: 5px;
+
+  resize: vertical;
+}
+
+input[type='submit'] {
+  background-color: #121212;
+  color: crimson;
+
+  font-weight: bold;
+
+  width: 50%;
+  /* Altura da caixa */
+  height: 40px;
+}
