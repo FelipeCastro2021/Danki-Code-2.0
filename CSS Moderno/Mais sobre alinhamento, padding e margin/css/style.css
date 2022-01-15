@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+
+  font-family: 'Inter';
+}
+
+.container {
+  margin: 15px 10px;
+}
+
+.block-1 {
+  background-color: tomato;
+
+  width: 33%;
+  vertical-align: top;
+
+  display: inline-block;
+}
+
+.block-2 {
+  background-color: crimson;
+
+  width: 33%;
+  vertical-align: top;
+
+  margin: 0 -4px;
+
+  display: inline-block;
+}
+
+.block-3 {
+  background-color: deeppink;
+
+  width: 33%;
+
+  display: inline-block;
+}
