@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+
+  font-family: 'Mukta';
+}
+
+.block {
+  background-color: tomato;
+
+  width: 85%;
+  height: 400px;
+
+  animation-name: transicao;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  -webkit-animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes transicao {
+  0% {
+    width: 85%;
+    height: 400px;
+
+    background-color: tomato;
+  }
+
+  50% {
+    background-color: yellow;
+
+    width: 75%;
+    height: 350px;
+  }
+
+  100% {
+    background-color: lightgreen;
+
+    width: 60%;
+    height: 300px;
+  }
+}
