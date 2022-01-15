@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.block-1 {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+
+  display: inline-block;
+
+  background-color: tomato;
+}
+
+.block-2 {
+  width: 50%;
+  height: 15vh;
+  overflow: scroll;
+  vertical-align: top;
+
+  display: inline-block;
+
+  background-color: blueviolet;
+}
+
+.block-3 {
+  width: 100%;
+
+  background-color: cornflowerblue;
+}
