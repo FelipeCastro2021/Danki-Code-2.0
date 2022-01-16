@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Responsivo - Técnicas Modernas</title>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilizações -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Felipe Castro Ferreira - Desenvolvedor Front End utilizando HTML 5, CSS 3, SCSS, Javascript."
+    />
+    <meta
+      name="keywords"
+      content="Felipe Castro Ferreira, Javascript, HTML 5, CSS 3, Portfólio, SCSS"
+    />
+
+    <!-- SMO -->
+    <meta
+      property="og:title"
+      content="Felipe Castro Ferreira - O Melhor Desenvolvedor Front End"
+    />
+    <meta property="og:site-name" content="Ryfer" />
+    <meta
+      property="og:description"
+      content="Felipe Castro Ferreira - O Melhor Desenvolvedor Front End com as tecnologias de base da web"
+    />
+    <meta property="og:url" content="https://ryfer.ga" />
+    <meta
+      property="og:image"
+      content="https://media-exp1.licdn.com/dms/image/C5616AQHTEAkB3iqdsQ/profile-displaybackgroundimage-shrink_200_800/0/1641564319507?e=1647475200&v=beta&t=Au49jaFu6-LSBjDFEy055Ngk_bPcLNw9sYryL4i-n3c"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <!-- Logo -->
+      <div class="logo w50">
+        <a href="index.html">
+          <h1 class="logo-title">Ryfer</h1>
+        </a>
+      </div>
+
+      <!-- Menu -->
+      <nav class="menu w50">
+        <!-- Items -->
+        <ul class="items">
+          <li class="item"><a href="#home">Home</a></li>
+          <li class="item"><a href="#about">About</a></li>
+          <li class="item"><a href="#gallery">Gallery</a></li>
+          <li class="item"><a href="#testimonials">Testimonials</a></li>
+          <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <h2>Seja bem-vindo ao mundo de <ins>One Piece</ins>!</h2>
+      </section>
+
+      <!-- Differentials -->
+      <section class="differentials">
+        <div class="w33 differential">
+          <h3>Qualidade</h3>
+          <img
+            src="http://buckminster.com.br/wp-content/uploads/2015/01/icone-qualidade.png"
+            alt="Icone de qualidade"
+            title="Qualidade"
+          />
+        </div>
+        <div class="w33 differential">
+          <h3>Praticidade</h3>
+          <img
+            src="data:image/png;base64,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"
+            alt="Icone de praticidade"
+            title="Praticidade"
+          />
+        </div>
+        <div class="w33 differential">
+          <h3>Velocidade</h3>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/72/72199.png"
+            alt="Icone de velocidade"
+            title="Velocidade"
+          />
+        </div>
+        <div class="w33 differential">
+          <h3>Flexibilidade</h3>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2646/2646177.png"
+            alt="Icone de flexibilidade"
+            title="Flexibilidade"
+          />
+        </div>
+        <div class="w33 differential">
+          <h3>Confiabilidade</h3>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1600/1600232.png"
+            alt="Icone de confiabilidade"
+            title="Confiabilidade"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
