@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+
+  font-family: 'Cairo';
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper .img {
+  width: 20%;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper .img {
+    width: 33.3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper .img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .wrapper .img {
+    width: 100%;
+  }
+}
